@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfoilo</title>
+    <link rel="stylesheet" href="/Portfoilo-/css/navbar.css" />
+    <link rel="stylesheet" href="/Portfoilo-/css/mode.css" />
+    <link rel="stylesheet" href="/Portfoilo-/css/hero.css" />
+  </head>
+  <body class="dark-mode">
+    <header>
+      <nav class="nav-dark">
+        <div class="name">
+          <h2>PremKumar</h2>
+          <div class="nav-links">
+            <ul>
+              <li class="lis"><a href="#about">About</a></li>
+              <li class="lis"><a href="#skills">Skills</a></li>
+              <li class="lis"><a href="#projects">Projects</a></li>
+              <li class="lis"><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="btu">
+          <div class="btu-toogle">
+            <button class="btn"></button>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <section class="hero">
+      <div class="heading">
+        <h1>Hello I'M Prem Kumar</h1>
+        <p>
+          I'm a <span class="typing">Web Developer</span> and
+          <span class="typing">Designer</span>.
+        </p>
+
+        <div class="main">
+          <span id="element"></span>
+        </div>
+      </div>
+      <div class="imgs">
+        <div class="light">
+          <div class="lightbluld"></div>
+          <div class="rays"></div>
+        </div>
+        <img
+          class="image"
+          src="/Portfoilo-/imgs/pngwing.com.png"
+          alt="Picture"
+        />
+      </div>
+    </section>
+
+    <script src="/Portfoilo-/js/index.js"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed("#element", {
+        strings: [
+          "Software Engineer",
+          "Open Source Contributor",
+          "Web Developer",
+        ],
+        typeSpeed: 50,
+      });
+    </script>
+  </body>
+</html>
