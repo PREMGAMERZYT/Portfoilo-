@@ -10,6 +10,10 @@
   font-variation-settings: "wdth" 100;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .dark-mode {
   background-color: rgb(26, 25, 27);
   color: white;

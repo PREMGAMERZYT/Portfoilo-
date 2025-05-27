@@ -2,3 +2,14 @@
   background-color: rgb(224, 222, 222) !important;
   color: white;
 }
+
+/* about */
+
+.mode-shawodow {
+  box-shadow: 0px 0px 100px rgba(0, 0, 0, 0.9);
+}
+
+
+html {
+  scroll-behavior: smooth;
+}
