@@ -41,6 +41,10 @@ html {
   width: 50%;
 }
 
+.name a {
+  text-decoration: none;
+}
+
 .name h2 {
   background: linear-gradient(to right, #ff7e5f, #18e206);
   background-clip: text;

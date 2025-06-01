@@ -28,7 +28,7 @@ html {
   width: 100%;
   height: max-content;
   /* text-align: center; */
-  margin: 2rem auto;
+  margin: 6rem 0 0 0;
   display: flex;
   flex-direction: column;
 }
@@ -106,7 +106,7 @@ html {
   width: 70%;
   height: 70%;
   position: absolute;
-  background-color: aqua;
+  /* background-color: aqua; */
   z-index: -1;
   border-radius: 10px;
   animation: glow 6s linear infinite;
@@ -171,7 +171,6 @@ html {
   width: 70%;
   height: 70%;
   position: absolute;
-  background-color: #61dafb;
   z-index: -1;
   border-radius: 10px;
   animation: glow 6s linear infinite;
@@ -184,6 +183,7 @@ html {
   width: 105%;
   height: 105%;
   background: linear-gradient(var(--angle), magenta, blue, cyan, magenta);
+  color: white;
 }
 
 .nodejs {
@@ -205,7 +205,6 @@ html {
   width: 70%;
   height: 70%;
   position: absolute;
-  background-color: #68a063;
   z-index: -1;
   border-radius: 10px;
   animation: glow 6s linear infinite;
@@ -545,4 +544,27 @@ html {
 .js-language2 p {
   color: #000;
   font-size: small;
+}
+
+.projects {
+  width: 100%;
+  height: max-content;
+  margin: 11rem 0 0 0;
+}
+
+.scrool-animation {
+  animation: apper linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
+}
+
+@keyframes apper {
+  from{
+    opacity: 0;
+    scale: 0.4;
+  }
+  to {
+    opacity: 1;
+    scale: 1;
+  }
 }
